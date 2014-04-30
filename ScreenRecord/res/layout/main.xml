@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root" >
+
+    <TextView
+        android:id="@+id/tips_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tips"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/tips_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tips"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/start_activity"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        android:text="@string/start_activity"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/finish_activity"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_above="@id/start_activity"
+        android:layout_marginBottom="10dip"
+        android:text="@string/finish_activity"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tips_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/finish_activity"
+        android:text="@string/tips"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true" />
+    
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tips_bottom"
+        android:layout_marginBottom="200dip"
+        android:text="@string/guide"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

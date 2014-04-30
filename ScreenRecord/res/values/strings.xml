@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">ScreenRecord</string>
+    <string name="finish_activity">Finish activity</string>
+    <string name="start_activity">Start activity</string>
+    <string name="tips">Activity number : </string>
+    <string name="guide">Press Start activity to increase UI hierarchy, every activity color is random! \nSwipe from edge of screen will drag ui, support left, right, and bottom.</string>
+    
+
+</resources>
